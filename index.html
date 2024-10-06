@@ -49,6 +49,12 @@
             margin-bottom: 20px; 
             font-size: 28px;
         }
+        .pub_title {
+            font-size: 20px; /* 设置标题字体大小 */
+            font-weight: bold; /* 设置标题加粗 */
+            margin: 0; /* 去除默认的段落边距 */
+            padding: 0; /* 去除默认的段落内边距 */
+        }
         .medium-text {
             margin-bottom: 16px;
             font-size: 20px;
@@ -67,6 +73,7 @@
 
     </style>
 </head>
+
 <body>
 
 <div class="container">
@@ -95,6 +102,130 @@
     <p> I received a B.Sc. degree from Northwest University, Xi’an, China, in 2015, and M.Sc. and Ph.D. degrees from Xi’an Jiaotong University, Xi’an, China, in 2018 and 2023, respectively. My master supervisor is Prof. <a href="https://gr.xjtu.edu.cn/en/web/dymeng" target="_blank">Deyu Meng</a>, and doctor supervisors are Prof. Deyu Meng and Hongying Zhang.  From February to September 2017, I conducted academic exchanges at the Institute of Future Cities of the Chinese University of Hong Kong and served as an assistant researcher. From 2018 to 2020, I was a researcher at Tencent Company as an researcher. Currently, I am the associate professor at the School of Mathematics and Statistics, Northwestern Polytechnical University.
     </p>
 
+    <h2 style="font-weight: bold; color: #DC143C;">Research Interest</h2>
+    <hr style="border: none; border-top: 2px solid; margin-bottom: 15px;">
+
+    My work focuses on data structure modeling and prior mining in machine learning.
+    Specifically, I focus on designing more efficient and interpretable image restoration models by combining more tensor/matrix modeling tools with prior characterization tools. A priori modeling tools include: deep learning and total variation regularization. Recently, I have focused on the following topics:
+    <ul>
+    <li>Tensor Modeling and application</li>
+    <li>low-rank matrix/tensor exact recoverable theory</li>
+    <li>Hyperspectral image processing</li>
+    </ul>
+
+    <h2 style="font-weight: bold; color: #DC143C;">News</h2>
+    <hr style="border: none; border-top: 2px solid; margin-bottom: 15px;">
+    <ul>
+        <li> 2024.9.26: Our recent work <a class="p3" href="https://ieeexplore.ieee.org/abstract/document/10695131/" target="_blank">DSDP</a> has been accepted by TGRS. Welcome to follow.  
+        <li>2024.9.11: Our recent work <a class="p3" href="https://ieeexplore.ieee.org/abstract/document/10677528/" target="_blank">Stacked Tucker Decomposition</a> has been accepted by TGRS. Welcome to follow. 
+        <li>2024.9.03: Our recent work <a class="p3" href="https://ieeexplore.ieee.org/abstract/document/10663706" target="_blank">Pan-denoising</a> has been accepted by TGRS. Welcome to follow. 
+    </ul>
+
+    <h2 style="font-weight: bold; color: #DC143C;">Research Experiences</h2>
+    <hr style="border: none; border-top: 2px solid; margin-bottom: 15px;">
+    <table class="imgtable">
+    <tr>
+    <td align="left">
+            <img src="./file/tencent_logo.png" alt="" height="90px" width="160px"/>
+    </td>
+    <td>
+        <p><a class="p3" href="https://www.tencent.com/zh-cn/" target="_blank" rel="noopener noreferrer">Tencent Video Search Center</a>, Tencent Technology Co., Ltd. </p>
+        <p>Research Assistant, July. 2018 ~ Sep. 2020</p> 
+        <p> Center Director: Huan Xiong </p> 
+    </td>
+    </tr>
+    <tr>
+        <td align="left">
+                <img src="./file/CUHK_Logo.jpeg" alt="" height="110px" width="120px"/>
+        </td>
+        <td>
+            <p><a href="http://www.iofc.cuhk.edu.hk/" target="_blank" rel="noopener noreferrer">Institute of Future Cities</a>, The Chinese University of Hong Kong, Hong Kong </p>
+            <p>Research Assistant, Feb. 2017 ~ Sep. 2017</p> 
+            <p>Supervisor: Prof. <a style="color:Purple" href="https://www.grm.cuhk.edu.hk/en/profile/prof-leung-yee/" target="_blank">Leung Yee</a></p> 
+        </td>
+    </tr>
+    </table>
+
+
+    <h2 style="font-weight: bold; color: #DC143C;">Selected Publications
+    <a style="color:Black" class="p1" href="https://scholar.google.com/citations?user=3crYjMoAAAAJ&hl=zh-CN" target="_blank">
+        <font size="2"> [Full List]</font></a>
+    </h2>
+
+    <table class="imgtable">
+
+    <!-- CTV -->
+    <tr>
+    <!-- 左边图片 -->
+    <td>
+      <img class="proj_thumb" src="./file/ctv.jpg" alt="Project Thumbnail" height="100px" style="margin-right: 20px;"/>
+    </td>
+    <!-- 右边内容：标题，作者，期刊和引用地址 -->
+    <td>
+      <p class="pub_title">Exact Decomposition of Joint Low Rankness and Local Smoothness Plus Sparse Matrices </p>
+      <p><b>Jiangjun Peng</b>, Yao Wang*, Hongying Zhang, Jianjun Wang, Deyu Meng*<br>
+      IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2023.<br>
+      [<a class="p3" href="https://ieeexplore.ieee.org/abstract/document/9875963" target="_blank">Paper</a>] 
+      [<a class="p3" href="https://github.com/andrew-pengjj/ctv_code" target="_blank">Code</a>] 
+      </p>
+    </td>
+    </tr>
+
+ 
+
+    <!-- E3DTV -->
+    <tr>
+    <!-- 左边图片 -->
+    <td>
+      <img class="proj_thumb" src="./file/e3dtv.jpg" alt="Project Thumbnail" height="100px" style="margin-right: 20px;"/>
+    </td>
+    <!-- 右边内容：标题，作者，期刊和引用地址 -->
+    <td>
+      <p class="pub_title">Enhanced 3DTV regularization and its applications on HSI denoising and compressed sensing </p>
+      <p><b>Jiangjun Peng</b>, Qi Xie#, Qian Zhao, Yao Wang*, Leung Yee, Deyu Meng*<br>
+      IEEE Transactions on Image Processing (<b>TIP</b>), 2020.<br>
+      [<a class="p3" href="https://ieeexplore.ieee.org/abstract/document/9143450" target="_blank">Paper</a>] 
+      [<a class="p3" href="https://github.com/andrew-pengjj/Enhanced-3DTV" target="_blank">Code</a>] 
+      </p>
+    </td>
+    </tr>
+
+    <!-- LRTDTV -->
+    <tr>
+    <!-- 左边图片 -->
+    <td>
+      <img class="proj_thumb" src="./file/lrtdtv.jpg" alt="Project Thumbnail" height="100px" style="margin-right: 20px;"/>
+    </td>
+    <!-- 右边内容：标题，作者，期刊和引用地址 -->
+    <td>
+      <p class="pub_title">Hyperspectral Image Restoration Via Total Variation Regularized Low-Rank Tensor Decomposition </p>
+      <p>Yao Wang, <b>Jiangjun Peng</b>,  Qian Zhao*,  Yee Leung, Xi-Le Zhao, Deyu Meng <br>
+      IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (<b>JSTAR</b>), 2017.<br>
+      [<a class="p3" href="https://ieeexplore.ieee.org/abstract/document/8233403" target="_blank">Paper</a>] 
+      [<a class="p3" href="https://github.com/andrew-pengjj/Enhanced-3DTV" target="_blank">Code</a>] 
+      </p>
+    </td>
+    </tr>
+
+    <!-- TCTV -->
+    <tr>
+    <!-- 左边图片 -->
+    <td>
+      <img class="proj_thumb" src="./file/tctv.jpg" alt="Project Thumbnail" height="100px" style="margin-right: 20px;"/>
+    </td>
+    <!-- 右边内容：标题，作者，期刊和引用地址 -->
+    <td>
+      <p class="pub_title">Hyperspectral Image Restoration Via Total Variation Regularized Low-Rank Tensor Decomposition </p>
+      <p>Hailin Wang, <b>Jiangjun Peng#</b>,  Wenjin Qin, Jianjun Wang, Deyu Meng<br>
+      IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2023.<br>
+      [<a class="p3" href="https://ieeexplore.ieee.org/abstract/document/10078018" target="_blank">Paper</a>] 
+      [<a class="p3" href="https://github.com/wanghailin97/Guaranteed-Tensor-Recovery-Fused-Low-rankness-and-Smoothness" target="_blank">Code</a>] 
+      </p>
+    </td>
+    </tr>
+
+
+    </table>
 
 
 

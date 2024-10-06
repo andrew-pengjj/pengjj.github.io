@@ -9,11 +9,12 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            height: 150vh;
+            background-color: #f5f5f5;
+            height: 100vh; /* 视口高度的 100% */
             display: flex;
             justify-content: center;
-            align-items: center;
-            background-color: #f5f5f5;
+            align-items: flex-start; /* 改为顶部对齐 */
+            overflow: auto; /* 防止内容过大时截断 */
         }
         .container {
             background-color: #fff;
